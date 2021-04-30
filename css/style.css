@@ -1,0 +1,122 @@
+h1 {
+    font-size: 24px;
+    color: #FF5126;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid;
+    border-color:#cccccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+}
+
+#inputTable {
+    background-color: #ccccff;
+    border-spacing: none;
+}
+
+#inputTable td {
+    width: 200px;
+}
+
+#characterTable {
+    background-color: #ffffee;
+}
+
+#characterTable th{
+    text-align: center;
+    border-bottom: 3px solid gray;
+}
+
+#characterTable td{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+input, select{
+    width: 160px;
+    padding: 3px;
+}
+
+input.stat{
+    text-align:center;
+}
+
+input[type="text"], select{
+    border: 2px solid darkgray;
+    border-radius: 3px;
+}
+
+input[type="radio"]{
+    width:auto;
+}
+
+th {
+    font-size:12px;
+    font-weight:bold;
+    color:#333333;
+    padding:10px;
+    margin:none;
+    text-align: left;
+    border-bottom:1px;
+    border-bottom-color:#f1f1f1;
+}
+
+td {
+    padding: 20px 10px;
+    margin: none;
+    text-align: center;
+}
+
+button {
+    margin: 1px;
+  
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+  
+    border: none;
+    border-radius: 4px;
+
+}
+
+#rerollBtn {
+    background-color: #ffc107;
+}
+
+#createBtn {
+    background-color: #a0e8b0;
+}
+
+#updateBtn {
+    background-color: #ff92ee;
+}
+
+#cancelBtn {
+    background-color: #efa7ae;
+}
+
+#newBtn {
+    display: block;
+    margin: 10px auto;
+    background-color: #1b5acc;
+    color: whitesmoke;
+}
+
+.error {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    color:#b33718;
+    font-weight: bold;
+}
